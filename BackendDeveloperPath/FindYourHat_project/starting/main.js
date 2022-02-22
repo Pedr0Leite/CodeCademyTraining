@@ -138,12 +138,6 @@ class Field {
   }
 }
 
-var arrField = [
-  ["*", "░", "O", "░", "░"],
-  ["░", "O", "░", "░", "O"],
-  ["░", "^", "░", "░", "░"],
-];
-// const myField = new Field(arrField);
 const myField = new Field(10, 10, 50);
 myField.play();
 myField;
